@@ -1,5 +1,5 @@
 # Tags mais utilizadas em HTML
-- [Estrutura Básica do HTML: Tags HTML, Head e Body](#estrutura)
+- [Estrutura Básica do HTML](#estrutura)
 - [Exemplo de atributos das Tags](#exemplo_atributo)
 - [Exemplo HTML de texto das Tags](#exemplo_texto)
 - [Exemplo Listas em HTML](#exemplo_lista)
