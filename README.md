@@ -29,5 +29,4 @@ Um atributo em HTML é uma parte de uma tag que fornece informações adicionais
 - O atributo **alt** é usado em elementos `<img>` e `<area>`. Ele fornece um texto alternativo que é exibido quando a imagem não pode ser carregada ou quando o usuário utiliza um leitor de tela para acessar o conteúdo da página. O texto alternativo também é importante para a acessibilidade, ajudando usuários com deficiência visual a entender o conteúdo das imagens. Além disso, motores de busca utilizam o texto alternativo para indexar e entender o conteúdo das imagens.
 
 ```markdown
-
-
+<img src="imagem.jpg" alt="Descrição da imagem">
