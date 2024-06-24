@@ -1,0 +1,53 @@
+
+*{
+    margin: 1em;
+}
+p {
+    text-align: justify;
+}
+ 
+#divborda
+{
+    width: 420px; /* largura da div */
+    height: 2px; /* altura da div */
+    background-color: #d1cfcf; /* cor de fundo */
+    padding: 15px; /* espaço interno */
+    justify-content: center; /* alinha horizontalmente o conteúdo no centro */
+    align-items: center; /* alinha verticalmente o conteúdo no centro */
+    font-size: 15px; /* tamanho da fonte */
+    color: #000000; /* cor do texto */
+    display: flex;
+    border-radius: 10px;
+     
+}
+
+
+#divborda1
+{
+    width: 350px; /* largura da div */
+    height: 50px; /* altura da div */
+    background-color: #d1cfcf; /* cor de fundo */
+    padding: 20px; /* espaço interno */
+    justify-content: center; /* alinha horizontalmente o conteúdo no centro */
+    align-items: center; /* alinha verticalmente o conteúdo no centro */
+    font-size: 15px; /* tamanho da fonte */
+    color: #000000; /* cor do texto */
+    display: flex;
+    border-radius: 10px;
+     
+}
+
+#divborda2
+{
+    width: 250px; /* largura da div */
+    height: 50px; /* altura da div */
+    background-color: #d1cfcf; /* cor de fundo */
+    padding: 40px; /* espaço interno */
+    justify-content: center; /* alinha horizontalmente o conteúdo no centro */
+    align-items: center; /* alinha verticalmente o conteúdo no centro */
+    font-size: 15px; /* tamanho da fonte */
+    color: #000000; /* cor do texto */
+    display: flex;
+    border-radius: 10px;
+     
+}

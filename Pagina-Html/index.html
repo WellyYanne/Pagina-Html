@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>HTML</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1 id="inicio"> Tags mais utilizadas em HTML</h1>
+    <hr />
+    <h2>Indice</h2>
+    <ul>
+        <li><a href="#estrutura">Estrutura Básica do HTML: Tags HTML, Head e Body</a></li>
+        <li><a href="#exemplo_atributo">Exemplo de atributos das Tags</a></li>
+        <li><a href="#exemplo_texto">Exemplo HTML de texto das Tags </a></li>
+        <li><a href="#exemplo_lista">Exemplo Listas em HTML</a></li>
+
+    </ul>
+
+
+    <p>
+    <h1 id="estrutura">Estrutura Básica do HTML: Tags HTML, Head e Body</h1>
+    <img src="https://pensandonaweb.com.br/content/images/2014/Aug/html-hierarchy.png" alt="">
+    
+    <p>A estrutura básica do HTML começa com a tag html,
+    que envolve todo o conteúdo da página. Dentro dela,
+    temos a head, onde são incluídos elementos como o título
+    da página, metadados (como a codificação de caracteres e a
+    definição da<i>viewport</i>), e links para outros recursos como
+    folhas de estilo<i>CSS</i>e scripts<i>JavaScript</i>. No body, local
+    onde são feitas as alterações visíveis para o usuário, podemos
+    utilizar uma variedade de tags para estruturar o conteúdo da
+    página. Por exemplo, a tag div é usada para agrupar e estruturar
+    blocos de conteúdo, enquanto as tags de cabeçalho<u>h1</u>a<u>h6</u> são
+    usadas para títulos e sub-títulos de diferentes níveis de
+    importância. As tags p são usadas para parágrafos de texto,<u>img</u>para imagens, 
+    a para links,<u>ul</u>e<u>ol</u> para listas
+    não-ordenadas e ordenadas, respectivamente, e<u>form</u>para
+    formulários interativos. Cada uma dessas tags desempenha
+    um papel crucial na criação de uma página web estruturada e
+    acessível.</p>
+    </p>
+  
+    <p>
+        <h1 id="exemplo_atributo">Exemplo de atributos das Tags</h1>
+        <p> Um atributo em HTML é uma parte de uma tag que fornece informações adicionais 
+            sobre como um elemento deve ser exibido ou comportar-se na página da web. 
+            Cada atributo consiste em um nome e um valor, separados por um sinal de igual (=),
+             e são usados para personalizar ou configurar elementos específicos em uma página.
+             Segue alguns exemplos.
+        </p>
+        <br>
+        <ul>
+            <li>O atributo<u>href</u>é essencial na tag<u>a</u>, permitindo definir o destino de um
+                 link. Ele pode ser usado para direcionar os usuários para outras páginas da web,
+                  seções dentro da mesma página (âncoras), ou até mesmo para downloads de arquivos.
+                 
+                 <div id="divborda">&lt;a&nbsp;href="https://www.exemplo.com" Acesse nosso site!&lt;/a&gt;</div> 
+            </li>
+       
+             <li>
+                O atributo<u>type</u>é essencial para definir o comportamento e o tipo de entrada
+                 de elementos em HTML, como campos de formulário, botões e links. Escolher o 
+                 tipo correto de type é crucial para garantir a funcionalidade correta e a
+                  usabilidade dos elementos em uma página web.
+
+                  <div id="divborda">&lt;input&nbsp;type="text" id="nome" name"nome"&gt; </div>
+             </li>
+            
+             <li>
+                O atributo<u>alt</u>é usado em elementos &lt;img&gt; e &lt;area&gt; 
+                Ele fornece um texto alternativo que é exibido quando a imagem não pode ser
+                 carregada ou quando o usuário utiliza um leitor de tela para acessar o 
+                 conteúdo da página. O texto alternativo também é importante para a 
+                 acessibilidade, ajudando usuários com deficiência visual a entender o 
+                 conteúdo das imagens. Além disso, motores de busca utilizam o texto 
+                 alternativo para indexar e entender o conteúdo das imagens.
+
+                 <div id="divborda">&lt;img src="imagem.jpg" <mark>alt="Descrição da imagem"&gt;</mark></div>
+             </li>
+            
+             <li>
+                O atributo<u>class</u>é usado para aplicar uma ou mais classes CSS a um elemento 
+                HTML. As classes são utilizadas para agrupar elementos que têm estilos 
+                semelhantes definidos em uma folha de estilo CSS externa ou interna. Isso 
+                permite aplicar estilos de forma consistente em vários elementos HTML sem 
+                precisar repetir o mesmo código CSS.
+
+                <div id="divborda">&lt;class="destaque"&gt;Este é um parágrafo destacado.&lt;/p &gt;</div>
+             </li>
+             
+             <li>
+                O atributo<u>style</u>é usado para aplicar estilos CSS inline diretamente em um 
+                elemento HTML. Ao contrário do uso de classes, que separam o estilo do
+                conteúdo, o style permite aplicar estilos diretamente no próprio elemento.
+                 Isso pode ser útil para estilizar elementos individualmente ou para ajustes
+                  rápidos.
+
+                  <div id="divborda">&lt;p style="color: red; font-size: 18px;"&gt;Estilo inline.&lt;/p&gt;</div>
+             </li>
+            
+             <li>
+            O atributo<u>title</u>é usado para fornecer informações adicionais sobre um elemento 
+             quando o usuário passa o mouse sobre ele. Isso geralmente aparece como uma dica
+              de ferramenta (tooltip) que contém o texto especificado no atributo title. 
+              É útil para dar explicações adicionais ou descrições breves sobre um elemento.
+
+              <div id="divborda">&lt;a href="#"title="Clique para mais informações"&gt;Informações&lt;/a&gt;</div>
+             </li>
+        </ul>
+    </p>
+    <p>
+            <h1 id="exemplo_texto">Exemplo HTML de texto das Tags</h1>
+            <p>
+                As tags de texto em HTML são usadas para estruturar e formatar o conteúdo 
+                textual em uma página web. Elas são fundamentais para apresentar informações
+                 de maneira clara e organizada. Aqui estão algumas das principais tags de 
+                 texto em HTML e suas funções básicas:
+            </p>
+            <br>
+            <ul>
+                <li>        
+                A tag &lt;p&gt; em HTML é essencial para estruturar e organizar o 
+                conteúdo textual em uma página da web. Ela é usada para definir
+                 parágrafos de texto, agrupando blocos coesos de informações que 
+                 formam unidades completas de pensamento ou explicação.
+
+                    <div id="divborda">&lt;p&gt;Este é um exemplo de parágrafo em HTML.&lt;/p&gt;</div>
+                </li>
+
+                <li>
+                    As tags&lt;h1&gt; a &lt;h6&gt; em HTML são usadas para definir cabeçalhos
+                     ou títulos de diferentes níveis de importância dentro de um documento 
+                     HTML. Cada uma dessas tags representa um nível hierárquico de título, 
+                     com &lt;h1&gt; sendo o mais importante e &lt;h6&gt; o menos importante.
+                    O &lt;h1&gt; é geralmente utilizado para o título principal da página ou 
+                    seção, enquanto &lt;h2&gt; é usado para subtítulos importantes dentro
+                     dessa seção principal.
+
+                     
+                        <p><div id="divborda1">&lt;h1&gt;<h1>Título de nível 1</h1>&lt;/h1&gt;</div></p>
+                        <p><div id="divborda1">&lt;h2&gt;<h2>Título de nível 2</h2>&lt;/h2&gt;</div></p>
+                                
+                    
+                </li>
+
+                <li>
+                    A tag &lt;u&gt; em HTML é utilizada para aplicar sublinhado ao texto dentro dela.
+                         Originalmente, era comum seu uso para indicar que o texto deveria ser sublinhado
+                         visualmente em navegadores antigos que não suportavam estilos CSS avançados. 
+                         No entanto, com o avanço das práticas modernas de desenvolvimento 
+                        web e acessibilidade, seu uso para estilização visual foi desencorajado.
+
+                        <div id="divborda">Este documento foi assinado de forma<u><mark>digital</u></div>
+                </li>
+
+                <li>
+                    A tag &lt;blockquote&gt; é usada para representar uma citação longa ou bloco de texto que deve ser destacado do 
+                        restante do conteúdo. É comumente utilizado para citações de outros autores.
+
+                        <div id="divborda1"><blockquote><p>Esta é uma citação longa que deve ser destacada.</p>
+                        </blockquote>                            </div>
+                </li>
+
+                <li>
+                    A tag &lt;sup&gt; é usada para definir texto sobrescrito, que aparece acima da
+                         linha de base normal do texto. É comumente usado para notações 
+                         matemáticas, notas de rodapé ou outras informações que precisam ser 
+                         exibidas acima do texto normal.
+
+                         <div id="divborda"><p>E=mc<sup>2</sup></p></div>
+                </li>
+                
+            </ul>
+    </p>
+
+    <p>
+        <h1 id="exemplo_lista">Exemplo HTML de texto das Tags</h1>
+        <p>
+            Em HTML, as listas são usadas para organizar informações de maneira 
+            estruturada. Existem dois tipos principais de listas: listas não ordenadas 
+            (&lt;ul&gt;) e listas ordenadas (&lt;ol&gt;).
+
+           <ul>
+            <li><p><b>Listas Não Ordenadas (&lt;ul&gt;):</b>
+                As listas não ordenadas são usadas quando a ordem dos itens não é importante.
+                Cada item é precedido por um marcador, geralmente um ponto.</p>
+
+               <div id="divborda2"> <ul>
+                    <li>Primeiro item</li>
+                    <li>Segundo item</li>
+                    <li>Terceiro item</li>
+                  </ul>
+                 </div>
+                </li>
+               <li>  <p><b>Listas Ordenadas (&lt;ol&gt;):</b>
+                 As listas ordenadas são usadas quando a
+                     ordem dos itens é significativa. Cada item é numerado sequencialmente.</p>
+
+                     <div id="divborda2">
+                        <ol>
+                            <li>Primeiro item</li>
+                            <li>Segundo item</li>
+                            <li>Terceiro item</li>
+                          </ol>
+                    </div>
+                </li>
+                    <li><p><b>Elemento &lt;li&gt;:</b>
+
+                    A tag &lt;li&gt; é usada dentro de &lt;ul&gt; e &lt;ol&gt; para cada item da lista. 
+                    Ela define o conteúdo de cada item da lista. As listas em HTML são úteis para estruturar 
+                    informações de forma organizada e semântica em uma página web, facilitando a compreensão
+                     e a navegação para os usuários.</p>
+                    </li>
+                    </ul>
+            
+
+        </p>
+    </p>
+
+    </p>
+</body>
+
+</html>
